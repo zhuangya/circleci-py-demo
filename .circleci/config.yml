@@ -25,7 +25,7 @@ jobs:
             - ".venv"
             - "/usr/local/bin"
             - "/usr/local/lib/python3.8/site-packages"
-      - run: pipenv run pytest ./tests
+      - run: pipenv run test
 
 workflows:
   version: 2
